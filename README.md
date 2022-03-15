@@ -5,11 +5,11 @@
  Pequena pokedex em desenvolvimento
 </h2>
 
-<h3>
+<h3 align="center">
   📂 Tecnologias utlizadas no projeto 📂
 </h3>
 
-<ul>
+<ul align="center">
    <li> <strong> HTML </strong> </li>
    <li> <strong> CSS </strong> </li>
    <li> <strong> JavaScript </strong> </li>
