@@ -14,5 +14,5 @@
    <h4 align="center"> <strong> CSS </strong> </h4>
    <h4 align="center"> <strong> JavaScript </strong> </h4>
 
-
+<img src="Pokedex/prints/printL.png">
 
