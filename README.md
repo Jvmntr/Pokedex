@@ -9,10 +9,10 @@
   📂 Tecnologias utlizadas no projeto 📂
 </h3>
 
-<ul align="center">
-   <li> <strong> HTML </strong> </li>
-   <li> <strong> CSS </strong> </li>
-   <li> <strong> JavaScript </strong> </li>
-</ul>
----
+
+   <h4 align="center"> <strong> HTML </strong> </h4>
+   <h4 align="center"> <h4> <strong> CSS </strong> </h4>
+   <h4 align="center"> <strong> JavaScript </strong> </h4>
+
+
 
