@@ -11,7 +11,7 @@
 
 
    <h4 align="center"> <strong> HTML </strong> </h4>
-   <h4 align="center"> <h4> <strong> CSS </strong> </h4>
+   <h4 align="center"> <strong> CSS </strong> </h4>
    <h4 align="center"> <strong> JavaScript </strong> </h4>
 
 
