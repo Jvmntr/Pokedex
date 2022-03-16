@@ -1,12 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+
+:root {
+    --light_mode_white: #FAFAFA;
+    --light_mode_black: #1a1919;
+    --light_mode_shadow: #696464;
+  }
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    background: #eb6359;
+    background: var(--light_mode_white);
     font-family: 'Inconsolata', monospace;
     display: flex;
     flex-direction: column;
@@ -17,8 +23,20 @@ body {
     margin: 0;
 }
 
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: var(--light_mode_white);
+    border: 5px solid var(--light_mode_white);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--light_mode_black);
+    border: 2px solid var(--light_mode_white);
+}
+
 h1 {
     letter-spacing: 3px;
+    color: var(--light_mode_black);
 }
 
 footer{
@@ -27,12 +45,12 @@ footer{
     font-weight: bold;
     line-height: 18px;
     letter-spacing: 0.2px;
-    color: white;
+    color: var(--light_mode_black);
 }
 
 footer a {
     text-decoration: none;
-    color: white;
+    color: var(--light_mode_black);
 }
 
 .poke-container {
@@ -45,16 +63,16 @@ footer a {
 }
 
 .pokemon {
-    background-color: #eee;
+    background-color: var(--light_mode_white);;
     border-radius: 10px;
-    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    box-shadow: 0 3px 15px var(--light_mode_shadow);
     margin: 10px;
     padding: 20px;
     text-align: center;
 }
 
 .pokemon .img-container {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: var(--light_mode_white);
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -78,9 +96,8 @@ footer a {
 }
 
 .modal {
-    background-color: rgba(0, 0, 0, 0.1);
     text-decoration: none;
-    color: #1a1919;
+    color: var(--light_mode_black);
     
 }
 
@@ -89,8 +106,33 @@ footer a {
     letter-spacing: 1px;
 }
 
-.poke-container :hover{
-    color: red;
+.poke-container :hover  {
+    transform: scale(1.3,1.3);
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
     cursor: pointer;
 }
+
+.poke-container :hover .info {
+    transform: scale(1,1);
+}
+
+.poke-container :hover .img-container {
+    transform: scale(1.2,1.2);
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+}
+
+.pokemon .info :hover {
+    transform: scale(1,1);
+}
+
+.pokemon .img-container :hover {
+    transform: scale(1,1);
+}
+
+
+
 
